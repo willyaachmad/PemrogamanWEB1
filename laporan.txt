@@ -1,97 +1,93 @@
-<html>
+NAMA : Willy Achmad Nurani
+NIM : 4123024
+KELAS : B
 
-    <head>
-        <title>
-           Pertemuan_1 
-        </title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+Pertemuan ke-1
 
-    <body>
+Pendahuluan
 
-        <header>
-            <h1>Pertemuan 1</h1>
-        </header>
-    
-    <main>
-        <section>
-            <h2>Pendahuluan</h2>
-       
+Pada pertemuan ke-1 ini , kita membahas tentang basic atau 
+dasar akan git dan program-program yang bersangkutan seperti GitHub, GitLab, Visual Studio Code, dll.
 
-            <p>Pertemuan ke-1 ini , kita membahas tentang basic atau 
-            dasar akan git dan program-program yang bersangkutan seperti <strong>GitHub</strong> ,
-            <strong>GitLab</strong> , <strong>Visual Studio Code</strong> dll
-            </p>
-        </section>
+Pembahasan
 
-        <section>
-            <h2>Pembahasan</h2>
-                
+Git
+Git adalah sistem kontrol versi terdistribusi yang digunakan untuk melacak perubahan dalam kode sumber selama
+pengembangan perangkat lunak. Git memungkinkan banyak pengembang untuk bekerja pada satu proyek secara bersamaan
+tanpa saling mengganggu, serta mempermudah kolaborasi dan pengelolaan versi dari sebuah proyek.
+Git dikembangkan oleh Linus Torvalds pada tahun 2005 untuk mengelola pengembangan kernel Linux.
 
-                <ul>
-                    <li><strong>Git</strong></li>
-                    <div class="box"><p>Git adalah sistem kontrol versi 
-                    terdistribusi (distributed version control) yang memungkinkan
-                    developer melacak perubahan dalam kode mereka,berkolaborasi
-                    dengan orang lain,dan mengelola berbagai versi proyek dengan
-                    berbagai fitur yang terdapat didalamnya,fitur tersebut antara lain:
-                    <ul>
-                        
-                        <li>Kontrol versi : Menyimpan riwayat perubahan ,
-                    sehingga memungkinkan kita untuk kembali ke status sebelumnya
-                    jika dibutuhkan </li>
+Fitur Utama Git :
+1. Kontrol Versi: Git menyimpan riwayat perubahan yang dilakukan pada proyek, sehingga memungkinkan pengembang
+   untuk mengakses versi-versi sebelumnya dari kode.
 
-                        <li>Branching dan Merging : Memungkinkan kita untuk membuat
-                        cabang untuk mengembangkan fitur dan menggabungkan perubahan 
-                        tersebut ke dalam codebase utama dengan merging </li>
+2. Branching dan Merging: Pengembang dapat membuat cabang (branch) untuk mengembangkan fitur baru atau
+   memperbaiki bug tanpa mengganggu cabang utama (main branch). Setelah selesai, perubahan pada cabang ini bisa
+   digabungkan (merge) kembali ke cabang utama.
 
-                        <li>Kolaborasi : Memungkinkan kolaborasi antar developer , 
-                            sehigga satu project bisa dikerjakan bersama-sama
-                            dalam waktu yang bersamaan
-                        </li>
-                
-                    </ul>
+3. Distribusi: Git bersifat terdistribusi, yang berarti setiap pengembang memiliki salinan lengkap dari repositori proyek,
+   sehingga memungkinkan untuk bekerja secara offline dan melakukan sinkronisasi (push dan pull) dengan repositori pusat saat dibutuhkan.
 
-                    </p></div>
-                    <li><strong>GitHub</strong></li>
-                    <div class="box"><p>GitHub merupakan suatu
-                        platform berbasis web yang digunakan untuk menyimpan 
-                        dan mengelola repositori Git . Fitur utama nya antara
-                        lain : <ul>
-                            <li>Hosting repositori publik dan pribadi.</li>
-                            <li>Alat kolaborasi seperti pull requests dan issues.</li>  
-                            <li>Integrasi dengan alat lain dan berbagai fitur 
-                                manajemen proyek</li>
-                        </ul><p>Dengan GitHub ini , developer dapat berbagi kode ,berkolaborasi dakam berbagai proyek</p></p></div>
-                    <li><strong>GitLab</strong></li>
-                    <div class="box"><p>GitLab merupakan platform yang mirip dengan GitHub, tetapi menyediakan fitur lebih lengkap . Fitur utama nya antara
-                        lain : <ul>
-                            <li>Repositori Git untuk manajemen kode.</li>
-                            <li>Sistem CI/CD untuk otomatisasi pengujian dan penyebaran.</li>  
-                            <li>Alat manajemen proyek dan kolaborasi tim.   </li>
-                        </ul><p>Dengan GitLab  banyak tim pengembang dapt mengelola siklus hidup perangkat lunak secara menyeluruh</p></p></div>
+4. Kecepatan: Git dirancang untuk efisiensi dan kecepatan, terutama dalam menangani proyek besar dengan banyak file.
 
-                        <li><strong>GitLab</strong></li>
-                        <div class="box"><p>Visual Studio Code merupakan editor kode sumber yang sangat kompatibel dengan Git, dikembangkan oleh Microsoft . Fitur utama nya antara
-                            lain : <ul>
-                                <li>Dukungan untuk berbagai bahasa pemrograman.</li>
-                                <li>Integrasi dengan Git, memungkinkan pengguna untuk melakukan commit, push, dan pull dari editor.</li>  
-                                <li>Ekstensi yang memungkinkan penyesuaian dan peningkatan fungsionalitas.   </li>
-                            </ul><p>Editor ini bbanyak digunakan oleh pengembang untuk menulis, mengedit, dan mengelola kode, serta untuk integrasi dengan sistem kontrol versi seperti Git.
-                            </p></p></div>
-                </ul>
-        </section>
+Github
+GitHub adalah platform hosting berbasis web yang menggunakan Git sebagai sistem kontrol versinya.
+GitHub menyediakan lingkungan bagi para pengembang untuk menyimpan, mengelola, dan melacak perubahan dalam kode
+sumber proyek mereka secara online. Selain itu, GitHub juga menawarkan berbagai fitur tambahan untuk
+mempermudah kolaborasi dalam pengembangan perangkat lunak, seperti fitur issue tracking, pull requests,
+continuous integration (CI), dan kolaborasi berbasis tim.
 
-        <section><h2>Kesimpulan</h2>
-        
-            <p>Dengan demikian kita bisa simpulkan bahwa Git ini sangat berguna bagi developer  </section>
-    </main></p>
+Fitur Utama GitHub :
+1. Repositori Git: Pengguna dapat menyimpan proyek mereka dalam repositori Git yang di-host di GitHub.
+   Repositori ini bisa bersifat publik (terbuka untuk semua orang) atau privat (hanya untuk orang-orang tertentu).
 
-    <!--Footer-->
-    <footer>
-        <p>Willy Achmad Nurani</p>
-        
-    </footer>
+2. Forking dan Pull Requests: Pengguna bisa membuat salinan (fork) dari repositori orang lain untuk membuat perubahan,
+   kemudian mengajukan pull request untuk menyarankan agar perubahan tersebut digabungkan ke repositori asal.
 
-    </body>    
-</html>
+3. Issue Tracking: GitHub menyediakan fitur untuk melacak bug, perbaikan, dan peningkatan dalam proyek melalui sistem issue tracking,
+   di mana pengembang bisa mendiskusikan masalah dan solusi.
+
+4. Wiki dan Dokumentasi: Repositori dapat menyertakan wiki yang membantu dalam dokumentasi proyek,
+   memungkinkan pengguna lain memahamicara kerja proyek tersebut.
+
+5. GitHub Pages: GitHub memungkinkan pengembang membuat halaman web statis yang di-host secara gratis,
+   biasanya digunakan untuk mendokumentasikan proyek atau membuat situs pribadi.
+
+6. Kolaborasi Tim: GitHub memfasilitasi kolaborasi antar pengembang dalam tim dengan fitur-fitur seperti assignment,
+   label, project boards, dan lain-lain.
+
+Visual Studio Code
+Visual Studio Code (VS Code) adalah editor kode sumber yang ringan, namun kuat, yang dikembangkan oleh Microsoft. 
+VS Code dirancang untuk mendukung berbagai bahasa pemrograman dan menawarkan fitur-fitur canggih seperti debugging,
+kontrol versi Git, dan ekstensi yang dapat disesuaikan sesuai kebutuhan pengembang.
+VS Code sangat populer di kalangan pengembang karena kemampuannya yang fleksibel, mudah digunakan,
+dan dapat diperluas melalui berbagai ekstensi.
+
+Fitur Utama Visual Studio Code :
+1. Editor Kode yang Cepat dan Ringan: VS Code menawarkan pengalaman pengeditan kode yang cepat dan responsif,
+   sekaligus memiliki banyak fitur canggih untuk pengembangan.
+
+2. Cross-Platform: VS Code bisa dijalankan di berbagai sistem operasi seperti Windows, macOS, dan Linux.
+
+3. Dukungan Bahasa yang Luas: Mendukung berbagai bahasa pemrograman seperti JavaScript, Python,
+   Java, C++, Go, PHP, HTML, CSS, dan banyak lagi.
+
+4. Autocompletion dan IntelliSense: Fitur IntelliSense memberikan autocompletion cerdas berdasarkan jenis data, 
+   definisi fungsi, dan modul yang diimpor, sehingga mempercepat penulisan kode.
+
+5. Debugging Terintegrasi: Memungkinkan pengembang untuk melakukan debugging langsung di editor dengan breakpoint,
+   stepping, dan console debug tanpa memerlukan alat eksternal.
+
+Kesimpulan
+
+1. Git adalah sistem kontrol versi terdistribusi yang memungkinkan pengembang untuk melacak perubahan pada kode sumber,
+berkolaborasi dalam pengembangan perangkat lunak, dan bekerja pada proyek secara bersamaan tanpa saling mengganggu.
+Fitur utamanya meliputi kontrol versi, branching dan merging, distribusi, dan efisiensi dalam menangani proyek besar.
+
+2. GitHub adalah platform hosting berbasis web yang menggunakan Git sebagai sistem kontrol versinya. GitHub memfasilitasi
+penyimpanan dan manajemen repositori proyek, kolaborasi tim, serta pengembangan perangkat lunak secara online dengan fitur tambahan
+seperti pull requests, issue tracking, wiki, dan GitHub Pages.
+
+3. Visual Studio Code (VS Code) adalah editor kode yang ringan namun kuat, mendukung berbagai bahasa pemrograman dan
+menyediakan fitur seperti debugging, kontrol versi Git, dan autocompletion melalui IntelliSense. VS Code juga bisa diperluas
+dengan ekstensi, membuatnya fleksibel dan cocok untuk pengembangan lintas platform.
