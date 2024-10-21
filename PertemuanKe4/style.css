@@ -1,0 +1,55 @@
+body {
+    background-color: #eaeaea;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.header h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.header ul {
+    padding: 0; /* Reset padding for the list */
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.cover {
+    height: 300px;
+    background-image: url('Logo.jpg'); /* Ensure the image path is correct */
+    background-size: cover; /* Optional: Ensures the image covers the div */
+}
+
+.content h1 {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.content h4 {
+    margin-left: 20px;
+}
+
+.content p {
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 0; /* Added padding for better spacing */
+}
+
+.footer p {
+    font-size: 18px;
+}
