@@ -1,34 +1,106 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>My New Website</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Berita</a></li>
-                <li><a href="#">Tentang Kami</a></li>
-            </ul>
-        </div>
-        <div class="cover"></div>
-        <div class="content">
-            <h1>Article Title</h1>
-            <h4>Written by Me</h4>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Nesciunt consequatur dicta sed, quisquam fuga nemo cupiditate 
-                voluptatum laboriosam ea sequi recusandae reprehenderit error 
-                ratione maiores esse optio molestias, quas dolore!
-            </p>
-        </div>
-        <div class="footer">
-            <p>Copyright by Me</p>
-        </div>
-    </div>
+    <html>
+        <style>
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .container {
+    width: auto;
+    background-color: white;
+  }
+  nav {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: solid 2px rgb(255, 0, 0);
+  }
+  .header h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    border-bottom: solid 2px rgb(255, 0, 0);
+  }
+   
+  .header ul li {
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    border-bottom: solid 2px   rgb(255, 0, 0);
+  }
+  
+  .cover {
+    height: 390px ;
+    background-image: url(Plakat.jpg);
+    background-size: 1500px 390px;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+  }
+  
+  
+  .content {
+    width: 70%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: solid 2px rgb(255, 0, 0);
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 2px rgb(255, 0, 0);
+  }
+  
+  .footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    border: solid 2px rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+        </style>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 </body>
+<div class="container">
+    <div class="header">
+        <h1>REVOLUSI DIGITAL SOLUSI</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </div>
+    <div class="cover"></div>
+    <main>
+    <div class="content">
+        
+        <p>Gunung Bromo Dengan lautan Pasir Yang Menyenangkan
+
+        </p>
+    </div>
+    <div class="sidebar">
+        <p>Bromo Advanture</p>
+
+    </div>
+    </main>
+            <div class="footer">
+                <p>copyright @bywillyan</p>
+            </div>
+    </div>
+</div>
 </html>
