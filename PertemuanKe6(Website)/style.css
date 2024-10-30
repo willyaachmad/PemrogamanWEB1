@@ -1,22 +1,24 @@
 * {
     text-decoration: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px; 
 }
 
 body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans',sans-serif;
+    background-color:#c7c7c7 ;
 }
 
 .wrapper {
     width: 1100px;
     margin: auto;
     position: relative;
+    background-color: #c7c7c7;
 }
 
-.logo a {
+.logo a {   
     font-size: 50px;
     font-weight: 800;
     float: left;
@@ -36,9 +38,9 @@ nav {
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: #FFFFFF;
+    background: #c7c7c7;
     z-index: 1;
-    border-bottom:1px solid #3e07e3;
+    border-bottom:2px solid #000000;
 }
 
 nav ul {
@@ -68,12 +70,7 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
-}
-
-.kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 70%;
+    width: auto;
 }
 
 .kolom .deskripsi {
@@ -118,7 +115,7 @@ p {
     width: 100%;
 }
 
-.tutor-list {
+.suported {
     width: 100%;
     position: relative;
     display: flex;
@@ -130,7 +127,7 @@ p {
     margin: 0 auto;
 }
 .kartu-tutor img {
-    width: 80%;
+    width: 100%;
     border-radius: 50%;
 }
 
@@ -139,10 +136,10 @@ p {
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #364f6b;
+    color: #3e07e3;
 }
 
-.partner-list {
+.suported {
     width: 100%;
     position: relative;
     display: flex;
@@ -155,7 +152,7 @@ p {
 }
 
 .kartu-partner img {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -173,7 +170,7 @@ p {
 }
 
 .footer-section {
-    width: 20%;
+    width: auto;
     margin: 0 auto;
 }
 
