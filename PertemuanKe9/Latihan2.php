@@ -1,6 +1,6 @@
 <?php
 
-$umur = 19;
+$umur = 13;
 
 if ($umur < 18) {
     echo "anda belum cukup umur";
